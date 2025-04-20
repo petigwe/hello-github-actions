@@ -1,46 +1,185 @@
-<header>
+/footer>
+<!DOCTYPE html>  <html lang="en">    <head>    
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="description" content="The Lord's Chosen Charismatic Revival Ministry - Nkayi Branch">    
+    <meta name="author" content="The Lord Chosen Nkayi">    
+    <title>The Lord Chosen - Congo Brazzavile - Nkayi Branch</title>    
+    <link rel="stylesheet" href="styles.css">  <!-- Styles -->    
+<style>    
+    /* ==== General Styling ==== */    
+    body {    
+        font-family: 'Georgia', serif;    
+        margin: 0;    
+        padding: 0;    
+        background: #f0f8ff;    
+        color: #333;    
+        scroll-behavior: smooth;    
+    }    /* ==== Header ==== */    
+header {    
+    background: #004d40;    
+    color: white;    
+    text-align: center;    
+    padding: 1.5rem 0;    
+}    
 
-# Hello GitHub Actions
+header h1 {    
+    margin: 0;    
+    font-size: 2rem;    
+}    
 
-_Create and run a GitHub Actions workflow._
+nav {    
+    background: #00796b;    
+    text-align: center;    
+    padding: 0.7rem 0;    
+}    
 
-</header>
+nav a {    
+    color: white;    
+    margin: 0 15px;    
+    text-decoration: none;    
+    font-weight: bold;    
+}    
 
-## Welcome
+nav a:hover {    
+    text-decoration: underline;    
+}    
 
-Automation is key for streamlining your work processes, and [GitHub Actions](https://docs.github.com/actions) is the best way to supercharge your workflow.
+/* ==== Sections ==== */    
+section {    
+    margin: 20px auto;    
+    padding: 20px;    
+    background: white;    
+    border: 1px solid #ccc;    
+    border-radius: 10px;    
+    max-width: 800px;    
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);    
+    text-align: center;    
+}    
 
-- **Who is this for**: Developers, DevOps engineers, students, managers, teams, GitHub users.
-- **What you'll learn**: How to create workflow files, trigger workflows, and find workflow logs.
-- **What you'll build**: An Actions workflow that will check emoji shortcode references in Markdown files.
-- **Prerequisites**: In this course you will work with issues and pull requests, as well as edit files. We recommend you take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) course first.
-- **How long**: This course can be finished in less than two hours.
+h2 {    
+    color: #004d40;    
+}    
 
-In this course, you will:
+img.pastor-imag {    
+    width: 200px;    
+    border-radius: 50%;    
+    margin-top: 15px;    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);    
+}    
 
-1. Create a workflow
-2. Add a job
-3. Add a run step
-4. Merge your pull request
-5. See effect of the workflow
+/* Countdown Timer */    
+#countdown {    
+    font-size: 1.5rem;    
+    color: #d32f2f;    
+    margin-top: 15px;    
+}    
 
-### How to start this course
+/* ==== Footer ==== */    
+footer {    
+    background: #004d40;    
+    color: white;    
+    text-align: center;    
+    padding: 1rem 0;    
+    margin-top: 20px;    
+}
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=My+clone+repository&visibility=public)
+</style>  </head>    
+<body>    
+    <header>    
+        <h1>The Lord's Chosen Charismatic Revival Ministry</h1>    
+        <p>Congo brazzavile - Nkayi Branch</p>    
+    </header>  <!-- Navigation -->    
+<nav>    
+    <a href="#greetings">Greetings</a>    
+    <a href="#about">About Us</a>    
+    <a href="#sermons">sermon</a>    
+    <a href="#events">Events</a>    
+    <a href="#giving">Give</a>    
+    <a href="#testimonies">Testimonies</a>    
+    <a href="#livestream">Live Stream</a>    
+    <a href="#contact">Contact Us</a>    
+</nav>    <main>    
+    <!-- Greetings Section with Pastor's Photo -->    
+    <section id="greetings">    
+        <h2>Greetings from the state pastor JOHNSON</h2>    
+        <img src="https://drive.google.com/file/d/1P7hTazITG4qgXXs . mQ6zvq69QoO7sir5w/view?usp=drivesdk" alt="Pastor johnson" class="pastor-img">    
+        <p>Greetings in the name of our Lord and Savior, Jesus Christ! As you visit our website, may God’s grace abound in your life. Here at The Lord Chosen Nkayi Branch, we believe in seeking first the Kingdom of God, trusting His promises, and living a life of faith and holiness. May you be blessed as you explore our ministry online.</p>    
+        <<h3>our sermon</h3>    
+            <<p>Matthew*  *6:33* But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.  John 14:1 Let not your heart be troubled: ye believe in God, believe also in me.  14:2 In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.  14:3 And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.</p>
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+</section>  <!-- Live Stream Section with Countdown -->    <section id="livestream">    
+    <h2>Join Our Live Service</h2>    
+    <iframe width="100%" height="400px" src="LIVE_STREAM_URL" frameborder="0" allowfullscreen></iframe>    
+    <p id="countdown">Next Live Service: <span id="timer"></span></p>    
+</section>    1
 
-<footer>
+        <!-- Giving Section -->  
+<section id="giving">  
+    <h2>Give Online</h2>  
+    <p>Your giving helps us spread the Gospel and support our ministry. May God bless you abundantly!</p>  
 
----
+    <h3>Offerings</h3>  
+    <p>Support the ministry through your freewill offerings. Every gift makes a difference.</p>  
+    <button onclick="window.location.href='OFFERING_URL'">Give Offering</button>  
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+    <h3>Tithes</h3>  
+    <p>Honor the Lord with your tithes. It is an act of faith and obedience.</p>  
+    <button onclick="window.location.href='TITHES_URL'">Pay Tithes</button>  
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+    <h3>Seed Sowing</h3>  
+    <p>Sow a seed of faith into God’s kingdom and trust in His promises for your harvest.</p>  
+    <button onclick="window.location.href='SEED_SOWING_URL'">Sow a Seed</button>  
+</section>  
+          
+<!-- Events Section -->    
+<section id="events">    
+    <h2>Service Times</h2>    
+    <ul style="list-style: none; padding: 0;">    
+        <li>Sunday Service – at 8 AM</li>    
+        <li>Tuesday Revival Hour – at 6 PM</li>    
+        <li>Thursday Deliverance and Counseling – at 6 PM</li>    
+        <li>Night Vigil – every Friday</li>    
+    </ul>    
+</section>
 
-</footer>
+</main>    <footer>    
+    <p>&copy; 2025 The Lord Chosen Charismatic Revival Ministry -Congo brazzavile - Nkayi Branch. All Rights Reserved.</p>    
+</footer>    <!-- Countdown Script -->    <script>    
+    // Set the date for the next service (Adjust for actual service day/time)    
+    const serviceTime = new Date();    
+    const today = new Date();    
+        
+    // Set service days (Tuesday = 2, Thursday = 4) at 6 PM    
+    if (today.getDay() <= 2) {    
+        serviceTime.setDate(today.getDate() + (2 - today.getDay()));    
+    } else if (today.getDay() <= 4) {    
+        serviceTime.setDate(today.getDate() + (4 - today.getDay()));    
+    } else {    
+        serviceTime.setDate(today.getDate() + (9 - today.getDay()));    
+    }    
+    serviceTime.setHours(18, 0, 0, 0);    
+  
+    // Countdown Timer    
+    const timerDisplay = document.getElementById('timer');    
+    function updateCountdown() {    
+        const now = new Date();    
+        const difference = serviceTime - now;    
+            
+        if (difference <= 0) {    
+            timerDisplay.textContent = "Live Now!";    
+            return;    
+        }    
+  
+              
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));    
+        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));    
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);    
+        timerDisplay.textContent = `${hours}h ${minutes}m ${seconds}s`;    
+    }    
+  
+    setInterval(updateCountdown, 1000);    
+</script>  </body>    
+</html>    
+
+
